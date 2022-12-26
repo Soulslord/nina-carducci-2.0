@@ -69,7 +69,7 @@ body {
     flex: 2;
   }
   .about-me__title {
-    margin-top: 1em;
+    /* margin-top: 1em; */
     margin-bottom: 60px;
     font-size: 30px;
   }
@@ -77,11 +77,13 @@ body {
     font-family: Spectral;
     font-weight: 800;
     font-style: italic;
-    width: 60%;
+    width: 80%;
+    /* background: red; */
   }
   #about-me p {
     width: 80%;
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size:calc(12px + 0.25vw);
   }
   
   #about-me .informations {
@@ -98,7 +100,9 @@ body {
   .nav-pills .nav-link.active,
   .nav-pills .show > .nav-link {
     color: #fff;
-    background-color: #beb45a;
+    /* //ancienne couleure pas assez contrastée */
+    /* background-color: #beb45a; */
+    background-color: #817617;
     border-radius: 0;
   }
   .nav-link {
