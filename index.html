@@ -4,11 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nina Carducci Photographe à Bordeaux</title>
     <meta
       name="description"
       content="Photographe professionnelle localisée à Bordeaux pour les entreprises, et pour les particuliers. Je fais des photos de mariages, de portraits, dans un environnement professionnel..."
     />
+    
 
+    <!-- meta google+ -->
+
+    <meta itemprop="name" content="Nina Carducci, Photographe à Bordeaux" />
+    <meta itemprop="description" content="Capturez vos expériences de vie avec moi, je suis une photographe professionnel qui peut prendre des photos de portraits, de mariage ou d'autres évenements. J'agis aussi dans les petites et grandes entreprises." />
+    <meta itemprop="image" content="https://raw.githubusercontent.com/Soulslord/nina-carducci-2.0/main/assets/images/nina.webp" />
+
+    <!-- meta fb -->
     <meta property="og:title" content="Nina Carducci, Photographe à Bordeaux" />
     <meta property="og:type" content="website" />
     <meta
@@ -25,6 +34,7 @@
     />
     <meta property="og:locale" content="fr_FR" />
 
+    <!-- meta Twitter -->
     <meta name="twitter:card" content="summary" />
     <meta
       name="twitter:site"
@@ -60,21 +70,44 @@
       href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
     />
 
-    <title>Nina Carducci Photographe à Bordeaux</title>
-    <!-- <script type="application/ld+json">
+    <meta name="google-site-verification" content="7oWSnM_o614FEAcs4m0yZ7kpKtbWL823dUVUQEDC_Wo"/>
+
+    <script type="application/ld+json">
       {
         "@context": "https://schema.org/",
-        "@type": "WebPage",
+        "@type": "LocalBusiness",
         "name": "Nina Carducci",
-        "jobTitle": "Photographe professionnelle"
-        "datePublished": "2022-12-23",
-        "url": "https://www.instagram.com/ninacarducci.photo/?hl=fr"
+        "image": "https://raw.githubusercontent.com/Soulslord/nina-carducci-2.0/main/assets/images/nina.webp",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "68 Avenue Alsace-Lorraine",
+          "addressLocality": "Bordeaux",
+          "postalCode": "33200",
+          "addressCountry": "FR"
+        },
+        "telephone" : "05 56 67 78 89",
+        "url": "https://soulslord.github.io/nina-carducci-2.0/",
+        "openingHours":["Mo-Fr 10:00-19:00"],
+        "currenciesAccepted": "EUR",
+        "priceRange": "50-400"
+
       }
-    </script> -->
-  </head>
+    </script>
+    <!-- "address" : {
+      "@type": "PostalAddress",
+      "streetAddress": "68 Avenue Alsace-Lorraine",
+      "addressLocality": "Bordeaux",
+      "postalCode": "60608",
+      "addressCountry": "FR",
+    }, -->
+    <!-- "jobTitle": "Photographe professionnelle",
+    "datePublished": "2022-12-23", -->
+    <!-- "url": "https://www.instagram.com/ninacarducci.photo/?hl=fr" -->
+    
+    </head>
   <body>
     <header class="top-header">
-      <h3 class="name">Nina Carducci</h3>
+      <h1 class="name">Nina Carducci <br><span>Photographe à Bordeaux</span></h1>
       <nav class="nav">
         <ul>
           <li>
@@ -197,6 +230,10 @@
             de la tendresse et de lumière à chaque fois que vous poserez les
             yeux sur vos photos.
           </p>
+
+          <p class="informations">Adresse: <strong>68 avenue Alsace-Lorraine, 33200 Bordeaux.</strong></p>
+          <p class="informations">Numéro: <strong>05 56 67 78 89.</strong></p>
+          <p class="informations">Horaires: <strong>Du lundi au vendredi, de 10 h à 19 h.</strong></p>
         </div>
       </section>
       <section id="gallery">
@@ -262,13 +299,13 @@
         <div class="quote">
           <figure>
             <blockquote>
-              <h1 class="quote__text">
+              <p class="quote__text">
                 Un portrait n’est pas une ressemblance. Dès lors qu’une émotion
                 ou qu’un fait est traduit en photo, il cesse d’être un fait pour
                 devenir une opinion. L’inexactitude n’existe pas en
                 photographie. Toutes les photos sont exactes. Aucune d’elles
                 n’est la vérité.
-              </h1>
+              </p>
             </blockquote>
             <figcaption class="quote__author">- Richard Avedon</figcaption>
           </figure>
@@ -323,11 +360,11 @@
       <section class="quote">
         <figure>
           <blockquote>
-            <h1 class="quote__text">
+            <p class="quote__text">
               De manière inconsciente, je crois, je guette un regard, une
               expression, des traits ou une nostalgie capable de résumer ou plus
               exactement de révéler une vie
-            </h1>
+            </p>
           </blockquote>
           <figcaption class="quote__author">- Richard Avedon</figcaption>
         </figure>
@@ -382,5 +419,6 @@
 
     <script src="./assets/maugallery.min.js"></script>
     <script src="./assets/scripts.min.js"></script>
+
   </body>
 </html>
